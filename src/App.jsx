@@ -16,7 +16,7 @@ export const App = () => {
         <NavbarBrand>
           <Palette color="#5745dc" size={40} strokeWidth={2} />
           <Spacer x={2} />
-          <p className="text-lg font-semibold">Generative Art Creator</p>
+          <p className="text-lg font-semibold">Generative Art Machine</p>
         </NavbarBrand>
         <NavbarContent justify="end">
           <NavbarItem>
