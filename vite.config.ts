@@ -5,6 +5,7 @@ import pluginChecker from "vite-plugin-checker";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/generative-art-machine/",
   plugins: [react(), tailwindcss(), pluginChecker({ typescript: true })],
   esbuild: {
     loader: "jsx",
